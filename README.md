@@ -15,5 +15,5 @@ https://theharv1.github.io/A-coding-quiz/index.html
 ## Contribution
 Made by Shawn 
 
-![index page]("index screenshot.png")
-![highscore page]("highscore screenshot.png")
+![index page](index screenshot.png)
+![highscore page](highscore screenshot.png)
