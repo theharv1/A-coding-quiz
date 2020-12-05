@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A Coding Quiz!</title>
+    <link rel= "stylesheet" href ="./assets/css/style.css"/>
+</head>
+<body>
+<!--main div-->
+  <div class="wrapper">
+        <a href="highscore.html"><button class="button">view high scores!</button></a>
+        <div class="timer">Time: <span id="time">0</span></div>
+      <div id="start-screen" class="start">
+        <h1 class="code-quiz">A Coding Quiz!</h1>
+          
+        <p class="code-quiz">Welcome! this is a simple coding quiz for you to test out your coding knowledge! this is a timed quiz, if you choose the wrong answer you'll get penalized and lose time!
+            if your up to the challenge go ahead and click the start button!
+        </p>
+       <!--start quiz button-->
+        <button class="button" id="start">Start Quiz</button>
+      </div>
+<!--question div-->
+      <div id="questions" class="hide">
+        <h2 id="question-title"></h2>
+        <div id="choices" class="choices"></div>
+      </div>
+<!--end screen div-->
+      <div id="end-screen" class="hide">
+        <h2>All done!</h2>
+        <p>Your final score is <span id="final-score"></span>.</p>
+        <p>
+          Enter initials: <input type="text" id="initials" max="5" />
+         <!--submit score button-->
+          <button class="button" id="submit">Submit</button>
+        </p>
+      </div>
+<!--feedback -->
+      <div id="feedback" class="feedback hide"></div>
+    </div>
+       
+    <!--run background image-->
+    <style>
+        body {
+         background-image: url('assets/img/coding101.jpg');
+         background-repeat: no-repeat;
+         background-attachment: fixed;
+         background-size: cover;
+        }
+    </style>
+    <!--links to questions and logic js-->
+    <script src="./assets/js/question.js"></script>
+    <script src="./assets/js/logic.js"></script>
+</body>
+</html>

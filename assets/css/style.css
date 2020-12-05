@@ -1,0 +1,68 @@
+/* high score page */
+#centered-highscore{
+    color: yellow;
+    text-align: center;
+    padding-top: 20px;
+
+}
+/* paragraph on main page */
+.code-quiz{
+    color: yellow ;
+    text-align: center;
+    padding-top: 25px;
+}
+/* buttons for both quiz and high score page */
+.button{
+    background-color: red;
+    color: yellow;
+}
+/* end of quiz notification */
+.hide {
+    display: none;
+  }
+/* high score h1 tag */
+  #highscores{
+    color: yellow;
+  }
+/* right or wrong pop-up */
+  #feedback{
+    color: yellow;
+    text-align: center;
+    margin: 20px auto;
+    max-width: 100px;
+  }
+/* questions and end screen */
+  #questions, #end-screen{
+    color: yellow;
+    text-align: center;
+    padding-top: 50px;
+  }
+/* timer */
+  .timer{
+    color: yellow;
+    float: right;
+    border: thin solid red;
+    padding: 5px;
+  }
+/* start */
+  #start{
+    margin: 20px auto;
+    display: block;
+  }
+  /*clear highscore btm */
+  #clear{
+    float: right;
+  }
+/* wrapper */
+  .wrapper{
+    margin: 100px auto 0 auto;
+    max-width: 600px;
+  }
+/* correct answer styling */
+  .correct{
+    border: thick solid green;
+  }
+/* wrong answer styling */
+  .wrong{
+    border: thick solid red;
+  }
